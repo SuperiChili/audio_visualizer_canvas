@@ -32,7 +32,7 @@ container.addEventListener('click', function(){
     animate();
 });
 
-file.addEventListener('change',xfunction(){
+file.addEventListener('change',function(){
     const files = this.files;
     console.log(this.files);
     const audio1 = document.getElementById('audio1');
